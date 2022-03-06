@@ -7,24 +7,24 @@
         sudo apt-get update && sudo apt-get install -y gnupg software-properties-common curl
 
 **Step 2** \
-   * Add the HashiCorp GPG key. \ 
+   Add the HashiCorp GPG key. \ 
 
      curl -fsSL https://apt.releases.hashicorp.com/gpg | sudo apt-key add -
 
 **Step 3** \
-  *  Add the official HashiCorp Linux repository. \
+   Add the official HashiCorp Linux repository. \
 
         sudo apt-add-repository "deb [arch=amd64] https://apt.releases.hashicorp.com $(lsb_release -cs) main"
 
 **Step 4** \
-  *  Update to add the repository, and install the Terraform CLI.\
+  Update to add the repository, and install the Terraform CLI.\
 
-       (sudo apt-get update && sudo apt-get install terraform) 
+       sudo apt-get update && sudo apt-get install terraform
 
 **Step 5** \
-* Verify that the installation worked by opening a new terminal session and listing Terraform's    available subcommands. \
+    Verify that the installation worked by opening a new terminal session and listing Terraform's    available subcommands. \
          
-     terraform -help
+        terraform -help
 
 # Enable Tab Completion #
 If you use either Bash or Zsh, you can enable tab completion for Terraform commands. To enable autocomplete, first ensure that a config file exists for your chosen shell. \
