@@ -23,6 +23,7 @@
 
 # Enable Tab Completion
 
+#
     If you use either Bash or Zsh, you can enable tab completion for Terraform commands. To enable autocomplete, first ensure that a config file exists for your chosen shell.\
 #
         (touch ~/.bashrc)
