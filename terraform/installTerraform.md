@@ -22,7 +22,7 @@ sudo apt-get update && sudo apt-get install -y gnupg software-properties-common 
         (terraform -help)
 
 
-# Enable Tab Completion
+# Enable Tab Completion #
 
     If you use either Bash or Zsh, you can enable tab completion for Terraform commands. To enable autocomplete, first ensure that a config file exists for your chosen shell.\
 
